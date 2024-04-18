@@ -1,0 +1,53 @@
+* {
+box-sizing: border-box;
+}
+body{
+background-color: rgb(220, 245, 188);
+}
+h1 {
+color: rgb(31, 119, 160);
+}
+/*table properties*/
+table {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-collapse: collapse;
+margin: 0 auto;
+}
+/*table cells properties*/
+td {
+width: 125px;
+height: 100px;
+}
+/*all keys*/  
+input {
+width: 100%;
+height: 100%;
+padding: 5px;
+border: 0.5px solid rgb(171, 171, 173);
+font-size: x-large;             
+}
+/*display result box*/
+input[type="text"] {
+background-color: rgb(192, 189, 191);
+background-image: linear-gradient(to bottom right, rgb(211, 208, 211), rgb(248, 246, 247));
+}
+/*number keys*/
+input[type="button"]{
+background-color: rgb(226, 230, 231);
+}
+/*back space and clear buttons*/
+#backSpace_button, #clear_button {
+color: white;
+background-color: rgb(238, 42, 68);
+font-size: 35px;
+}
+
+/*arithmetic calculation keys*/
+#calc_button {
+background-color: rgb(64, 137, 173);
+font-size: 55px;
+color: white;
+}
+#displayButton{
+text-align: right;
+}
