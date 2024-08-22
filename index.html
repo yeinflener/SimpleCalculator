@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>04112024 Calculator</title>
+  <link rel="icon" type="image/x-icon" href="./image/favicon_6.ico">
+  <link rel="stylesheet" href="style.css"
+</head>
+<body>
+  <h1 align= "center" >TheSimpleCalculator</h1>
+  <table>
+    <tr>
+      <td colspan="4"><input type="text" id="displayButton" ></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="7" id="numKey" onclick="getNumber(7)"></td>
+      <td><input type="button" value="8" id="numKey" onclick="getNumber(8)"></td>
+      <td><input type="button" value="9" id="numKey" onclick="getNumber(9)"></td>
+      <td><input type="button" value="+" id="calc_button" onclick="getOperator('+')"></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="4" id="numKey" onclick="getNumber(4)"></td>
+      <td><input type="button" value="5" id="numKey" onclick="getNumber(5)"></td>
+      <td><input type="button" value="6" id="numKey" onclick="getNumber(6)"></td>
+      <td><input type="button" value="-" id="calc_button" onclick="getOperator('-')"></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="1" id="numKey" onclick="getNumber(1)"></td>
+      <td><input type="button" value="2" id="numKey" onclick="getNumber(2)"></td>
+      <td><input type="button" value="3" id="numKey" onclick="getNumber(3)"></td>
+      <td><input type="button" value="*" id="calc_button" onclick="getOperator('*')"></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="<" style="font-size: 50px;" id="backSpace_button" onclick="backSpaceDisplay()"></td>
+      <td><input type="button" value="0" id="numKey" onclick="getNumber(0)"></td>
+      <td><input type="button" value="." id="numKey" style="font-size: 50px" onclick="getNumber('.')"></td>
+      <td><input type="button" value="/" id="calc_button" onclick="getOperator('/')"></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="AC" id="clear_button" onclick="clearDisplay()"></td>
+      <td colspan="3"><input type="button" value="=" id="calc_button" onclick="calc()" style="background-color: rgb(132, 133, 138); color: white;"></td>
+    </tr>
+  </table>
+  <script src="script.js"></script> 
+</body>
+</html>
